@@ -1,4 +1,5 @@
 ready = ->
+  console.log 'ready'
   $(window).scroll ->
     element = $('#page-top-btn')
     visible = element.is(':visible')
