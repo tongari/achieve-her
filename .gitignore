@@ -11,3 +11,6 @@
 /log/*
 !/log/.keep
 /tmp
+/vendor/bundle
+.ruby-version
+.node-version
