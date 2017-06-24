@@ -2,7 +2,7 @@
 
 errorMsg="prod処理を停止します。"
 
-#bundle exec rake assets:precompile RAILS_ENV=production
+bundle exec rake assets:precompile RAILS_ENV=production
 echo "コミット文言を入力してください"
 read commitMsg
 echo "コミットメッセージ -> $commitMsg"
@@ -42,9 +42,11 @@ esac
 
 echo "プッシュしますか？ y(yes) or n(no)"
 read isPush
+echo "ブランチは？"
+read branchName
 case $isPush in
   y)
-    git push
+    git push origin $branchName
     ;;
   n)
     echo "プッシュキャンセルしました。"
