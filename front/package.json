@@ -1,0 +1,39 @@
+{
+  "name": "achieve",
+  "version": "1.0.0",
+  "description": "==Achieve README",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --progress --watch",
+    "build": "webpack --config webpack.config.babel.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tongari/achieve.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tongari/achieve/issues"
+  },
+  "homepage": "https://github.com/tongari/achieve#readme",
+  "dependencies": {
+    "autoprefixer": "^7.1.1",
+    "babel-core": "^6.25.0",
+    "babel-preset-es2015": "^6.24.1",
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "file-loader": "^0.11.2",
+    "node-sass": "^4.5.3",
+    "postcss": "^6.0.3",
+    "postcss-loader": "^2.0.6",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.0.0",
+    "webpack-build-notifier": "^0.1.14"
+  }
+}

@@ -65,7 +65,7 @@ header {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #ccc;
     text-align: center;
-    
+
     &:hover, &:focus {
       color: white;
     }
@@ -76,7 +76,7 @@ header {
       background-color: transparent;
     }
   }
-  
+
   .navbar-nav {
     position: absolute;
     z-index: 100;
@@ -84,7 +84,7 @@ header {
     margin-top: 0;
     background-color: rgba(0,0,0,1);
   }
-  
+
 }
 
 
@@ -92,7 +92,7 @@ header {
   padding-bottom: 15%;
   width: 100%;
   background-size: cover;
-  background-image: url("header.jpg");
+  background-image: url("/assets/header.jpg");
   background-attachment: fixed;
 }
 
@@ -148,18 +148,18 @@ body {
   right: 30px;
   bottom: 30px;
   z-index: 20;
-  
+
   a {
     display: block;
     color: white;
     line-height: 60px;
     text-decoration: none;
   }
-  
+
   &:hover {
     opacity: 0.7;
   }
-  
+
 }
 
 .flash {
