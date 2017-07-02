@@ -15,3 +15,5 @@
 .ruby-version
 .node-version
 front/node_modules/
+.idea/
+.editorconfig

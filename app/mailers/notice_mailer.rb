@@ -5,10 +5,20 @@ class NoticeMailer < ApplicationMailer
   #
   #   en.notice_mailer.sendmail_blog.subject
   #
+  domain = 'tongari-as.com'
+  @@mailPath = "info@#{domain}"
+
   def sendmail_blog(blog)
     @blog = blog
 
-    mail to: "info@tongari-as.com",
+    mail to: @@mailPath,
     subject: '【Achieve】ブログが投稿されました'
+  end
+
+  def sendmail_contact(contact)
+    @contact = contact
+
+    mail to: @@mailPath,
+    subject: '【Achieve】お問い合わせありがとうございます'
   end
 end
