@@ -14,3 +14,6 @@
 /vendor/bundle
 .ruby-version
 .node-version
+.idea/
+.editorconfig
+front/node_modules/
