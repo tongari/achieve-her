@@ -7,6 +7,7 @@ class BlogsController < ApplicationController
   def index
     @blogs = Blog.all
     @users = User.all
+    #binding.pry
     # render :json => @blogs
   end
 
