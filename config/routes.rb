@@ -1,7 +1,4 @@
 Rails.application.routes.draw do
-
-
-
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
   devise_for :users
   resources :blogs, only: [:index, :new, :create, :edit, :update ,:destroy] do
@@ -20,6 +17,8 @@ Rails.application.routes.draw do
       post :confirm
     end
   end
+
+  resources :poems, only:[:index, :show]
 
   root 'top#index'
 

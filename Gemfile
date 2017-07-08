@@ -62,3 +62,5 @@ gem 'faker'
 gem 'rails_admin'
 
 gem 'cancan'
+
+gem 'activeresource'

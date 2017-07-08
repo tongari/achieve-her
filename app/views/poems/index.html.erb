@@ -1,0 +1,7 @@
+<ul class="list-group">
+<% @poems.each do |poem| %>
+  <li class="list-group-item">
+    <%= link_to poem.title, poem_path(poem.id)%>
+  </li>
+<% end %>
+</ul>
